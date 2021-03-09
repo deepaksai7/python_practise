@@ -1,7 +1,7 @@
 import requests
 import json
 
-SUBSCRIPTION_KEY="e202927a1f9b46d88ee79ed225f89fe4"
+SUBSCRIPTION_KEY="your_key"
 vision_service_address="https://imageanalyzerpython.cognitiveservices.azure.com/"
 address=vision_service_address+"vision/v2.0/analyze"
 parameters={'visualFeatures':'Description,Color',
